@@ -5,8 +5,6 @@
     <h1 align="center">StartArch</h1>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
     <a href="https://startarch.com"><strong>Go to live site »</strong></a>
     <br />
     <a href="https://github.com/StartArch/StartArch-Main-Page/issues/new?assignees=&labels=&template=bug_report.md&title=">Report a bug</a>

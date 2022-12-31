@@ -1,10 +1,11 @@
-import { Hero } from './sections';
+import { Hero, Services } from './sections';
 
 function App() {
 
     return (
 		<>
 			<Hero/>
+			<Services/>
 		</>
 	)
 }

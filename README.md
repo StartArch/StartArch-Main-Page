@@ -9,9 +9,9 @@
     <br />
     <a href="https://startarch.com"><strong>Go to live site »</strong></a>
     <br />
-    <a href="https://github.com/StartArch/StartArch-Main-Page/issues/new">Open an Issue</a>
+    <a href="https://github.com/StartArch/StartArch-Main-Page/issues/new?assignees=&labels=&template=bug_report.md&title=">Report a bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/StartArch/StartArch-Main-Page/issues/new?assignees=&labels=&template=feature_request.md&title=">Request a feature</a>
   </p>
 </div>
 
@@ -20,20 +20,20 @@
   <summary>Table of Contents</summary>
   <ul>
     <li>
-        <a href="#">About us</a>
+        <a href="#about-us">About us</a>
     </li>
     <li>
-        <a href="#">About this project</a>
+        <a href="#about-this-project">About this project</a>
         <ul>
-            <li><a href="#">Built with</a></li>
+            <li><a href="#built-with">Built with</a></li>
         </ul>
     </li>
     <li>
-        <a href="#">Getting started</a>
+        <a href="#getting-started">Getting started</a>
         <ul>
-            <li><a href="#">Prerequisites</a></li>
-            <li><a href="#">Installation</a></li>
-            <li><a href="#">Usage</a></li>
+            <li><a href="#prerequisites">Prerequisites</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#usage">Usage</a></li>
         </ul>
     </li>
   </ul>
@@ -52,9 +52,10 @@ This is the front end application for StartArch's company. You can find more inf
 
 ### Built with
 
-* React.js
-* Vite
-* TypeScript
+* [React.js](https://reactjs.org/)
+* [Vite](https://vitejs.dev/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [NPM](https://www.npmjs.com/)
 
 
 ## Getting started

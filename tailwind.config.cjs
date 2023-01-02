@@ -1,10 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
+	content: [
+		"./index.html",
+		"./src/**/*.{js,ts,jsx,tsx}",
+	],
+	theme: {
         extend: {
             colors: {
                 nearWhite: '#F3F3F3',
@@ -24,6 +27,17 @@ module.exports = {
             lg: '1400px',
             xl: '1700px'
         }
-  },
-  plugins: [],
+    },
+	plugins: [
+		plugin(function({addComponents}){
+            addComponents({
+                '.content': {
+                    padding: '0 10%'
+                }
+            })
+		}),
+        plugin(function({addVariant}){
+            addVariant('children', '&>*')
+        })
+	],
 }

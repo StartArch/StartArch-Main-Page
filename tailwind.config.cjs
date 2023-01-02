@@ -11,7 +11,8 @@ module.exports = {
         extend: {
             colors: {
                 nearWhite: '#F3F3F3',
-                nearBlack: '#333333'
+                nearBlack: '#333333',
+                lightPurple: '#9172D3'
             },
             fontFamily: {
                 poppins: ['Poppins', 'sans-serif'],

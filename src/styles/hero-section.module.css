@@ -1,50 +1,38 @@
 .heroSection {
-    height: 100vh;
     background: linear-gradient(100.44deg, #B397EE -7.72%, #5133A7 64.9%);
 
-    padding: 0 12%;
-    padding-top: 8%;
-    overflow: hidden;
+    @apply h-[100vh] px-[10%] pt-[8%] overflow-hidden relative;
+}
 
+.textBox {
+    @apply children:text-nearWhite relative z-50;
 }
 
 .heroSection h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 125px;
-    color: #f3f3f3;
+    @apply font-poppins font-bold
+        text-[1.4rem] leading-[1.6em]
+        xs:text-[1.6rem] xs:leading-[1.6em]
+        ss:text-[1.9rem] ss:leading-[1.7em]
+        sm:text-[2.5rem] sm:leading-[1.7em]
+        md:text-[3.2rem] md:leading-[1.7em]
+        lg:text-[3.8rem] lg:leading-[1.7em]
+        xl:text-[4.5rem] xl:leading-[1.7em] ;
 }
 
 .heroSection h2 {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 22px;
-    line-height: 30px;
-    color: #f3f3f3;
+    @apply font-dmSans leading-[1.87rem]
+        text-[1.1rem]
+        ss:text-[1.2rem]
+        sm:text-[1.4rem];
 }
 
-.rocketImg {
-    height: 637px;
-    width: auto;
-
-    transform: rotate(10.85deg);
-
-    z-index: 10;
-    position: absolute;
-    right: 20%;
-    bottom: 6%;
+/* TODO: make moon responsive */
+.moon {
+    @apply landscape:h-[105vh] landscape:w-[105vh] rounded-full bg-lightPurple absolute right-[-8%] bottom-[-17%];
 }
 
-.moonShape {
-    height: 1000px;
-    width: 1000px;
-
-    background-color: #9172D3;
-    border-radius: 50%;
-    display: block;
-
-    float: right;
-    position: relative;
-    right: -25%;
-    bottom: 50%;
+/* TODO: make rocket responsive */
+.rocket {
+    @apply h-[70%] rotate-[10.85deg] z-10 absolute right-[52%] bottom-[18%];
 }
+

@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import { yellowRocket } from '../assets';
 import styles from '../styles/hero-section.module.css';
 

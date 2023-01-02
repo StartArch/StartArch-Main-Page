@@ -1,5 +1,5 @@
 import startarchLogo from './startarchLogo.svg';
-import yellowRocket from './yellow-rocket.png';
+import yellowRocket from './yellow-rocket.webp';
 import designIcon from './design-icon.svg';
 import figmaLogo from './figma-logo.svg';
 import adobeXDLogo from './adobeXD-logo.svg';

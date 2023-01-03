@@ -21,7 +21,7 @@ function Services() {
                 </ul>
                 <div className={styles.serviceDescription}>
 
-                    <img src={designIcon} width='60px'/>
+                    <img src={designIcon} alt='Design' width='60px'/>
                     <p>
                         Every project starts at the drawing table, we work to bring what is in your head to reality.
                     </p>
@@ -31,9 +31,9 @@ function Services() {
                         <li>Logo design</li>
                     </ul>
                     <div className={styles.serviceTools}>
-                        <img src={figmaLogo}/>
-                        <img src={adobeXDLogo}/>
-                        <img src={photoshopLogo}/>
+                        <img src={figmaLogo} alt='Figma'/>
+                        <img src={adobeXDLogo} alt='AdobeXD'/>
+                        <img src={photoshopLogo} alt='Photoshop'/>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,11 @@
+.serviceDescription {
+    @apply flex flex-col items-center basis-3/4 gap-5;
+}
+
+.serviceDistinctions {
+    @apply flex flex-row gap-5 children:border-[1px] children:border-nearBlack children:rounded-full children:px-3 items-baseline;
+}
+
+.serviceTools {
+    @apply flex flex-row gap-5 children:w-[50px];
+}

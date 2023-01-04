@@ -12,6 +12,9 @@ function Services() {
         isActive ? 'bg-[#2F80ED]' : 'bg-white'
     ].join(' ');
 
+    // TODO: Remove mock projectInfo from services
+    // TODO: Move ProjectInfo type to types folder
+    // TODO: Create json file to holder static values for services
     const designProjectInfo = {
         icon: designIcon,
         description: 'Every project starts at the drawing table, we work to bring what is in your head to reality.',
@@ -49,6 +52,7 @@ function Services() {
         <section className={styles.section}>
             <h2 className={styles.title}>Services</h2>
 
+            {/* // TODO: Create clickable event to change selected service */}
             <div className={styles.sectionBody}>
                 <ul className={styles.servicesList}>
                     <li className={servicesListItems(true)}>Design</li>

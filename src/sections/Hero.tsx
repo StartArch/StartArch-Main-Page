@@ -13,6 +13,7 @@ function Hero() {
                 </h2>
             </div>
 
+            {/* TODO: Replace moon span by a ::before css tag */}
             <span className={styles.moon}>
                 <img className={styles.rocket} src={yellowRocket} alt=''/>
             </span>

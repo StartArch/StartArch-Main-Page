@@ -17,17 +17,5 @@
 .servicesListItems {
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
 
-    @apply text-center my-2 py-2;
-}
-
-.serviceDescription {
-    @apply flex flex-col items-center basis-3/4 gap-5;
-}
-
-.serviceDistinctions {
-    @apply flex flex-row gap-5 children:border-[1px] children:border-nearBlack children:rounded-full children:px-3 items-baseline;
-}
-
-.serviceTools {
-    @apply flex flex-row gap-5 children:w-[50px];
+    @apply text-center my-2 py-2 cursor-pointer hover:font-bold;
 }

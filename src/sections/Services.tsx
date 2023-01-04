@@ -1,3 +1,4 @@
+import styles from './Services.module.css';
 import { designIcon, figmaLogo, adobeXDLogo, photoshopLogo } from '../assets';
 import styles from '../styles/services-section.module.css';
 

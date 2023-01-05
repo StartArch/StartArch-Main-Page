@@ -1,8 +1,8 @@
 import styles from './Services.module.css';
 import { ServiceCard } from '../components';
-import { designIcon, figmaLogo, adobeXDLogo, photoshopLogo } from '../assets';
-import { developmentIcon } from '../assets';
-import { hostingIcon } from '../assets';
+import { DesignIcon, FigmaLogo, AdobeXDLogo, PhotoshopLogo } from '../assets/images';
+import { DevelopmentIcon } from '../assets/images';
+import { HostingIcon } from '../assets/images';
 
 function Services() {
 
@@ -16,36 +16,45 @@ function Services() {
     // TODO: Move ProjectInfo type to types folder
     // TODO: Create json file to holder static values for services
     const designProjectInfo = {
-        icon: designIcon,
+        icon: DesignIcon.image,
         description: 'Every project starts at the drawing table, we work to bring what is in your head to reality.',
         service1: 'Website design',
         service2: 'Mobile app design',
         service3: 'Logo design',
-        tool1: figmaLogo,
-        tool2: adobeXDLogo,
-        tool3: photoshopLogo
+        tool1: FigmaLogo.image,
+        tool1Description: FigmaLogo.description,
+        tool2: AdobeXDLogo.image,
+        tool2Description: AdobeXDLogo.description,
+        tool3: PhotoshopLogo.image,
+        tool3Description: PhotoshopLogo.description,
     }
 
     const developmentProjectInfo = {
-        icon: developmentIcon,
+        icon: DevelopmentIcon.image,
         description: 'Making ideas into reality is hard, thankfully our programmers work hard to do it.',
         service1: 'Website design',
         service2: 'Mobile app design',
         service3: 'Logo design',
-        tool1: figmaLogo,
-        tool2: adobeXDLogo,
-        tool3: photoshopLogo
+        tool1: FigmaLogo.image,
+        tool1Description: FigmaLogo.description,
+        tool2: AdobeXDLogo.image,
+        tool2Description: AdobeXDLogo.description,
+        tool3: PhotoshopLogo.image,
+        tool3Description: PhotoshopLogo.description,
     }
 
     const hostingProjectInfo = {
-        icon: hostingIcon,
+        icon: HostingIcon.image,
         description: 'Every project needs a home and attention, we can manage those problems to let you focus on your idea.',
         service1: 'Website design',
         service2: 'Mobile app design',
         service3: 'Logo design',
-        tool1: figmaLogo,
-        tool2: adobeXDLogo,
-        tool3: photoshopLogo
+        tool1: FigmaLogo.image,
+        tool1Description: FigmaLogo.description,
+        tool2: AdobeXDLogo.image,
+        tool2Description: AdobeXDLogo.description,
+        tool3: PhotoshopLogo.image,
+        tool3Description: PhotoshopLogo.description,
     }
 
     return (

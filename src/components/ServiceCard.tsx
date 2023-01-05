@@ -1,35 +1,39 @@
 import styles from './ServiceCard.module.css';
-import { designIcon, figmaLogo, adobeXDLogo, photoshopLogo } from '../assets';
 
 interface Props {
     projectInfo: {
-        icon: any,
+        icon: string,
         description: string,
         service1: string
         service2: string
         service3: string
-        tool1: any,
-        tool2: any,
-        tool3: any
+        tool1: string,
+        tool1Description: string,
+        tool2: string,
+        tool2Description: string,
+        tool3: string,
+        tool3Description: string,
     }
 };
 
 export default function ServiceCard(props: Props) {
 
+    const {projectInfo} = props;
+
     return(
         <div className={styles.serviceDescription}>
 
-            <img src={props.projectInfo.icon} alt='Design' width='60px'/>
-            <p>{props.projectInfo.description}</p>
+            <img src={projectInfo.icon} alt='Design' width='60px'/>
+            <p>{projectInfo.description}</p>
             <ul className={styles.serviceDistinctions}>
-                <li>{props.projectInfo.service1}</li>
-                <li>{props.projectInfo.service2}</li>
-                <li>{props.projectInfo.service3}</li>
+                <li>{projectInfo.service1}</li>
+                <li>{projectInfo.service2}</li>
+                <li>{projectInfo.service3}</li>
             </ul>
             <div className={styles.serviceTools}>
-                <img src={props.projectInfo.tool1} alt='Figma'/>
-                <img src={props.projectInfo.tool2} alt='AdobeXD'/>
-                <img src={props.projectInfo.tool3} alt='Photoshop'/>
+                <img src={projectInfo.tool1} alt={projectInfo.tool1Description}/>
+                <img src={projectInfo.tool2} alt={projectInfo.tool2Description}/>
+                <img src={projectInfo.tool3} alt={projectInfo.tool3Description}/>
             </div>
         </div>
     );

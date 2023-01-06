@@ -1,5 +1,5 @@
-import { yellowRocket } from '../assets';
-import styles from '../styles/hero-section.module.css';
+import { YellowRocket } from '../assets/images';
+import styles from './Hero.module.css';
 
 function Hero() {
 
@@ -14,7 +14,7 @@ function Hero() {
             </div>
 
             <span className={styles.moon}>
-                <img className={styles.rocket} src={yellowRocket} alt=''/>
+                <img className={styles.rocket} src={YellowRocket.image} alt=''/>
             </span>
         </section>
     );

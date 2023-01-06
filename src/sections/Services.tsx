@@ -1,5 +1,8 @@
-import { designIcon, figmaLogo, adobeXDLogo, photoshopLogo } from '../assets';
-import styles from '../styles/services-section.module.css';
+import styles from './Services.module.css';
+import { ServiceCard } from '../components';
+import { DesignIcon, FigmaLogo, AdobeXDLogo, PhotoshopLogo } from '../assets/images';
+import { DevelopmentIcon } from '../assets/images';
+import { HostingIcon } from '../assets/images';
 
 function Services() {
 
@@ -9,35 +12,66 @@ function Services() {
         isActive ? 'bg-[#2F80ED]' : 'bg-white'
     ].join(' ');
 
+    // TODO: Remove mock projectInfo from services
+    // TODO: Move ProjectInfo type to types folder
+    // TODO: Create json file to holder static values for services
+    const designProjectInfo = {
+        icon: DesignIcon.image,
+        description: 'Every project starts at the drawing table, we work to bring what is in your head to reality.',
+        service1: 'Website design',
+        service2: 'Mobile app design',
+        service3: 'Logo design',
+        tool1: FigmaLogo.image,
+        tool1Description: FigmaLogo.description,
+        tool2: AdobeXDLogo.image,
+        tool2Description: AdobeXDLogo.description,
+        tool3: PhotoshopLogo.image,
+        tool3Description: PhotoshopLogo.description,
+    }
+
+    const developmentProjectInfo = {
+        icon: DevelopmentIcon.image,
+        description: 'Making ideas into reality is hard, thankfully our programmers work hard to do it.',
+        service1: 'Website design',
+        service2: 'Mobile app design',
+        service3: 'Logo design',
+        tool1: FigmaLogo.image,
+        tool1Description: FigmaLogo.description,
+        tool2: AdobeXDLogo.image,
+        tool2Description: AdobeXDLogo.description,
+        tool3: PhotoshopLogo.image,
+        tool3Description: PhotoshopLogo.description,
+    }
+
+    const hostingProjectInfo = {
+        icon: HostingIcon.image,
+        description: 'Every project needs a home and attention, we can manage those problems to let you focus on your idea.',
+        service1: 'Website design',
+        service2: 'Mobile app design',
+        service3: 'Logo design',
+        tool1: FigmaLogo.image,
+        tool1Description: FigmaLogo.description,
+        tool2: AdobeXDLogo.image,
+        tool2Description: AdobeXDLogo.description,
+        tool3: PhotoshopLogo.image,
+        tool3Description: PhotoshopLogo.description,
+    }
+
     return (
         <section className={styles.section}>
             <h2 className={styles.title}>Services</h2>
 
+            {/* // TODO: Create clickable event to change selected service */}
             <div className={styles.sectionBody}>
                 <ul className={styles.servicesList}>
                     <li className={servicesListItems(true)}>Design</li>
                     <li className={servicesListItems(false)}>Development</li>
                     <li className={servicesListItems(false)}>Hosting & Maintenance</li>
                 </ul>
-                <div className={styles.serviceDescription}>
-
-                    <img src={designIcon} alt='Design' width='60px'/>
-                    <p>
-                        Every project starts at the drawing table, we work to bring what is in your head to reality.
-                    </p>
-                    <ul className={styles.serviceDistinctions}>
-                        <li>Website design</li>
-                        <li>Mobile app design</li>
-                        <li>Logo design</li>
-                    </ul>
-                    <div className={styles.serviceTools}>
-                        <img src={figmaLogo} alt='Figma'/>
-                        <img src={adobeXDLogo} alt='AdobeXD'/>
-                        <img src={photoshopLogo} alt='Photoshop'/>
-                    </div>
-                </div>
+                {/* <ServiceCard projectInfo={designProjectInfo}/> */}
+                {/* <ServiceCard projectInfo={developmentProjectInfo}/> */}
+                <ServiceCard projectInfo={hostingProjectInfo}/>
             </div>
-
         </section>
     );
 }

@@ -3,7 +3,7 @@ import { StartarchLogoText } from './../../assets/images'
 function Navbar() {
 
     return (
-        <section className={styles.navSection}>
+        <nav className={styles.navSection}>
 
             {/* TODO: Modify logo to have a textt tag for the company name */}
             <span>
@@ -18,7 +18,7 @@ function Navbar() {
                 <button className={styles.button}>Blog</button>
                 <button className={styles.button}>Contact Us</button>
             </div>
-        </section>
+        </nav>
     );
 }
 

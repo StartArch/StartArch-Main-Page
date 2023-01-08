@@ -5,10 +5,12 @@ function Navbar() {
     return (
         <section className={styles.navSection}>
 
+            {/* TODO: Modify logo to have a textt tag for the company name */}
             <span>
                 <img src={StartarchLogoText} alt='logo' />
             </span>
 
+            {/* TODO: Settup react router to navigate through page */}
             <div className={styles.navButton}>
                 <button className={styles.button}>Home</button>
                 <button className={styles.button}>Sevices</button>

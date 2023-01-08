@@ -1,8 +1,8 @@
 import styles from './Services.module.css';
-import { ServiceCard } from '../components';
-import { DesignIcon, FigmaLogo, AdobeXDLogo, PhotoshopLogo } from '../assets/images';
-import { DevelopmentIcon } from '../assets/images';
-import { HostingIcon } from '../assets/images';
+import { ServiceCard } from '../../components';
+import { DesignIcon, FigmaLogo, AdobeXDLogo, PhotoshopLogo } from '../../assets/images';
+import { DevelopmentIcon } from '../../assets/images';
+import { HostingIcon } from '../../assets/images';
 
 function Services() {
 

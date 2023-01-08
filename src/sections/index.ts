@@ -1,5 +1,5 @@
-import Hero from './Hero';
-import Services from './Services';
+import Hero from './Hero/Hero';
+import Services from './Sevice/Services';
 
 export {
     Hero,

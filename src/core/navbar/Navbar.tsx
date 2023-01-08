@@ -1,13 +1,13 @@
 import styles from './navbar.module.css';
-import { StartarchLogoText } from './../../assets/images'
+import { StartarchLogo } from './../../assets/images'
 function Navbar() {
 
     return (
         <nav className={styles.navSection}>
 
-            {/* TODO: Modify logo to have a textt tag for the company name */}
-            <span>
-                <img src={StartarchLogoText} alt='logo' />
+            <span className={styles.companyLogo}>
+                <img src={StartarchLogo.image} alt={StartarchLogo.description} />
+                <h1>StartArch</h1>
             </span>
 
             {/* TODO: Settup react router to navigate through page */}

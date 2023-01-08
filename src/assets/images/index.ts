@@ -6,6 +6,8 @@ import hostingIcon from './hosting-icon.png';
 import photoshopLogo from './photoshop-logo.svg';
 import startarchLogo from './startarchLogo.svg';
 import yellowRocket from './yellow-rocket.webp';
+import StartarchLogoText from './StartarchLogoText.svg';
+
 
 import {ImportedStaticImages} from '../../types';
 
@@ -58,5 +60,6 @@ export {
     HostingIcon,
     PhotoshopLogo,
     StartarchLogo,
-    YellowRocket
+    YellowRocket,
+    StartarchLogoText
 }

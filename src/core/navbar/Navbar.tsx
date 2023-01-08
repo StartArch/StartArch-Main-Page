@@ -12,11 +12,12 @@ function Navbar() {
 
             {/* TODO: Settup react router to navigate through page */}
             <div className={styles.navButton}>
-                <button className={styles.button}>Home</button>
-                <button className={styles.button}>Sevices</button>
-                <button className={styles.button}>Case of Studies</button>
-                <button className={styles.button}>Blog</button>
+                <button className={styles.button}>About</button>
+                <button className={styles.button}>Portfolio</button>
+                <button className={styles.button}>Services</button>
+                <button className={styles.button}>Prices</button>
                 <button className={styles.button}>Contact Us</button>
+                <button className={styles.button}>Login</button>
             </div>
         </nav>
     );

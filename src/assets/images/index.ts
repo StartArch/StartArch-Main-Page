@@ -6,60 +6,50 @@ import hostingIcon from './hosting-icon.png';
 import photoshopLogo from './photoshop-logo.svg';
 import startarchLogo from './startarchLogo.svg';
 import yellowRocket from './yellow-rocket.webp';
-import StartarchLogoText from './StartarchLogoText.svg';
+import startarchLogoText from './startarchLogoText.svg';
 
 
-import {ImportedStaticImages} from '../../types';
-
-
-const AdobeXDLogo: ImportedStaticImages = {
+export const AdobeXDLogo: ImportedStaticImage = {
     image: adobeXDLogo,
     description: "AdobeXD"
 }
 
-const DesignIcon: ImportedStaticImages = {
+export const DesignIcon: ImportedStaticImage = {
     image: designIcon,
     description: "Design services"
 }
 
-const DevelopmentIcon: ImportedStaticImages = {
+export const DevelopmentIcon: ImportedStaticImage = {
     image: developmentIcon,
     description: "Development services"
 }
 
-const FigmaLogo: ImportedStaticImages = {
+export const FigmaLogo: ImportedStaticImage = {
     image: figmaLogo,
     description: "Figma"
 }
 
-const HostingIcon: ImportedStaticImages = {
+export const HostingIcon: ImportedStaticImage = {
     image: hostingIcon,
     description: "Hosting services"
 }
 
-const PhotoshopLogo: ImportedStaticImages = {
+export const PhotoshopLogo: ImportedStaticImage = {
     image: photoshopLogo,
     description: "Photoshop"
 }
 
-const StartarchLogo: ImportedStaticImages = {
+export const StartarchLogo: ImportedStaticImage = {
     image: startarchLogo,
     description: "Startarch logo"
 }
 
-const YellowRocket: ImportedStaticImages = {
+export const YellowRocket: ImportedStaticImage = {
     image: yellowRocket,
     description: "Yellow rocket"
 }
 
-export {
-    AdobeXDLogo,
-    DesignIcon,
-    DevelopmentIcon,
-    FigmaLogo,
-    HostingIcon,
-    PhotoshopLogo,
-    StartarchLogo,
-    YellowRocket,
-    StartarchLogoText
+export const StartarchLogoText: ImportedStaticImage = {
+    image: startarchLogoText,
+    description: "StartArch logo"
 }

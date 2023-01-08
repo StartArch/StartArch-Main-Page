@@ -8,7 +8,7 @@
     @apply children:text-nearWhite relative z-50;
 }
 
-.heroSection h1 {
+.textBox h1 {
     @apply font-poppins font-bold
         text-[1.4rem] leading-[1.6em]
         xs:text-[1.6rem] xs:leading-[1.6em]
@@ -19,7 +19,7 @@
         xl:text-[4.5rem] xl:leading-[1.7em] ;
 }
 
-.heroSection h2 {
+.textBox h2 {
     @apply font-dmSans leading-[1.87rem]
         text-[1.1rem]
         ss:text-[1.2rem]

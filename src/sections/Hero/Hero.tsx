@@ -1,5 +1,5 @@
-import { YellowRocket } from '../assets/images';
-import { Navbar } from '../core/navbar';
+import { YellowRocket } from '../../assets/images';
+import { Navbar } from '../../core';
 import styles from './Hero.module.css';
 
 function Hero() {

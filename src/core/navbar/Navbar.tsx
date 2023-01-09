@@ -6,7 +6,7 @@ function Navbar() {
         <nav className={styles.navSection}>
 
             <span className={styles.companyLogo}>
-                <img src={StartarchLogo.image} alt={StartarchLogo.description} />
+                <img src={StartarchLogo.asset} alt={StartarchLogo.description} />
                 <h1>StartArch</h1>
             </span>
 

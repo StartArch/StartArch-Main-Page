@@ -16,7 +16,7 @@ function Hero() {
             </div>
 
             <span className={styles.moon}>
-                <img className={styles.rocket} src={YellowRocket.image} alt=''/>
+                <img className={styles.rocket} src={YellowRocket.asset} alt=''/>
             </span>
         </section>
     );

@@ -9,43 +9,43 @@ import yellowRocket from './yellow-rocket.webp';
 import startarchLogoText from './startarchLogoText.svg';
 
 
-export const AdobeXDLogo: ImportedStaticImage = {
-    image: adobeXDLogo,
+export const AdobeXDLogo: ImportedStaticAsset = {
+    asset: adobeXDLogo,
     description: "AdobeXD"
 }
 
-export const DesignIcon: ImportedStaticImage = {
-    image: designIcon,
+export const DesignIcon: ImportedStaticAsset = {
+    asset: designIcon,
     description: "Design services"
 }
 
-export const DevelopmentIcon: ImportedStaticImage = {
-    image: developmentIcon,
+export const DevelopmentIcon: ImportedStaticAsset = {
+    asset: developmentIcon,
     description: "Development services"
 }
 
-export const FigmaLogo: ImportedStaticImage = {
-    image: figmaLogo,
+export const FigmaLogo: ImportedStaticAsset = {
+    asset: figmaLogo,
     description: "Figma"
 }
 
-export const HostingIcon: ImportedStaticImage = {
-    image: hostingIcon,
+export const HostingIcon: ImportedStaticAsset = {
+    asset: hostingIcon,
     description: "Hosting services"
 }
 
-export const PhotoshopLogo: ImportedStaticImage = {
-    image: photoshopLogo,
+export const PhotoshopLogo: ImportedStaticAsset = {
+    asset: photoshopLogo,
     description: "Photoshop"
 }
 
-export const StartarchLogo: ImportedStaticImage = {
-    image: startarchLogo,
+export const StartarchLogo: ImportedStaticAsset = {
+    asset: startarchLogo,
     description: "Startarch logo"
 }
 
-export const YellowRocket: ImportedStaticImage = {
-    image: yellowRocket,
+export const YellowRocket: ImportedStaticAsset = {
+    asset: yellowRocket,
     description: "Yellow rocket"
 }
 

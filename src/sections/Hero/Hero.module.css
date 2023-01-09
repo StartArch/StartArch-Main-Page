@@ -5,7 +5,7 @@
 }
 
 .textBox {
-    @apply children:text-nearWhite relative z-50;
+    @apply children:text-nearWhite relative z-50 mt-[8rem];
 }
 
 .textBox h1 {

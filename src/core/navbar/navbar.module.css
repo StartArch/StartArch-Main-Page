@@ -1,13 +1,15 @@
 .navSection {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    margin-bottom: 8em;
-    margin-top: 1.2rem;
+    @apply fixed flex right-0 left-0 px-[10%] pt-[1.2rem] z-[100] md:bg-transparent md:h-auto md:overflow-auto md:flex-row md:justify-between;
+}
+
+.hamburguerMenu {
+    @apply h-8 w-8
+        absolute right-[10%]
+        md:hidden;
 }
 
 .companyLogo {
-    @apply flex items-center gap-[20px];
+    @apply absolute md:static flex place-content-center gap-[20px];
 }
 
 .companyLogo img {
@@ -18,10 +20,11 @@
     @apply text-nearWhite font-spaceGrotesk text-[24px] font-bold;
 }
 
-.navButton {
-    @apply flex gap-[40px];
+.navButtons {
+    @apply flex justify-center gap-10 flex-col w-full
+        md:flex-row md:w-auto;
 }
 
 .button {
-    @apply font-dmSans text-nearWhite text-[1rem];
+    @apply font-dmSans text-[1rem] text-nearWhite hover:font-bold;
 }

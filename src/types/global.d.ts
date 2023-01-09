@@ -1,4 +1,4 @@
-declare interface ImportedStaticImage {
-    image: string,
+declare type ImportedStaticAsset = {
+    asset: string,
     description: string
 }

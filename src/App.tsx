@@ -1,4 +1,3 @@
-
 import { Hero, Services } from './sections';
 
 function App() {

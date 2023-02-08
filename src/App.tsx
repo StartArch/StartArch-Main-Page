@@ -1,4 +1,4 @@
-import { Hero, Services } from './sections';
+import { Hero, Services, Footer } from './sections';
 
 function App() {
 
@@ -6,6 +6,7 @@ function App() {
 		<>
 			<Hero/>
 			<Services/>
+			<Footer/>
 		</>
 	)
 }

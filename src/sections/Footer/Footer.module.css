@@ -1,0 +1,16 @@
+.footer {
+    background-color: #333333;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    color: #FFFFFF;
+    font-weight: 700;
+    @apply font-dmSans leading-[1.87rem]
+        text-[1.1rem]
+        ss:text-[1.2rem]
+        sm:text-[1.4rem];
+}

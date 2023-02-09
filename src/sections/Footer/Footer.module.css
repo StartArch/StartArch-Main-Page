@@ -1,16 +1,38 @@
 .footer {
     background-color: #333333;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: flex;
     justify-content: center;
 }
 
+.columnOganize{
+    display: flex;
+    flex-direction: column;
+}
+
 .titulo {
+    align-self: center;
+    margin-top: .7em;
     color: #FFFFFF;
     font-weight: 700;
-    @apply font-dmSans leading-[1.87rem]
-        text-[1.1rem]
-        ss:text-[1.2rem]
-        sm:text-[1.4rem];
+    font-size: 2em;
+    line-height: 48px;
+}
+
+.slogan {
+    margin-top: .7em;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1em;
+    align-items: center;
+}
+
+.email {
+    align-self: center;
+    margin-top: .7em;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 63px;
 }

@@ -6,7 +6,7 @@ import hostingIcon from './hosting-icon.png';
 import photoshopLogo from './photoshop-logo.svg';
 import startarchLogo from './startarchLogo.svg';
 import yellowRocket from './yellow-rocket.webp';
-
+import startarchLogoNotTitle from './startarchLogoNotTitle.svg';
 
 export const AdobeXDLogo: ImportedStaticAsset = {
     asset: adobeXDLogo,
@@ -46,4 +46,10 @@ export const StartarchLogo: ImportedStaticAsset = {
 export const YellowRocket: ImportedStaticAsset = {
     asset: yellowRocket,
     description: "Yellow rocket"
+}
+
+
+export const StartarchLogoNotTitle: ImportedStaticAsset = {
+    asset: startarchLogoNotTitle,
+    description: "Startarch logo"
 }

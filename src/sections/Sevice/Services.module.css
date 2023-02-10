@@ -1,5 +1,9 @@
 .section {
-    @apply content my-12;
+    /* @apply content my-12; */
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .title {

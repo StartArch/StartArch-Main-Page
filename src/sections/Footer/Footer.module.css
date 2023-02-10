@@ -1,0 +1,68 @@
+.footer {
+    background-color: #333333;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.columnOganize{
+    display: flex;
+    flex-direction: column;
+    width: 70em;
+}
+
+.titulo {
+    align-self: center;
+    margin-top: .7em;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 48px;
+}
+
+.slogan {
+    margin-top: .7em;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1em;
+    align-self: center;
+}
+
+.email {
+    align-self: center;
+    margin-top: .7em;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 63px;
+}
+
+.tags {
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.columnTags {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-bottom: 3em;
+    /* align-items: center; */
+}
+
+.firstLabel{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.otherLabel{
+    color: #FFFFFF;
+    font-size: 0.8888888888888888em;
+    font-weight: 600;
+    margin-top: .45em;
+}

@@ -1,9 +1,10 @@
 import Footer from './Footer/Footer';
 import Hero from './Hero/Hero';
-import Services from './Sevice/Services';
+import Values from './Values/Values';
+
 
 export {
     Hero,
-    Services,
+    Values,
     Footer
 }

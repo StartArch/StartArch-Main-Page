@@ -1,0 +1,27 @@
+.valuesSection {
+    @apply py-10 content;
+}
+
+.title {
+    @apply font-poppins text-[32px] font-bold text-center;
+}
+
+.subtitle {
+    @apply font-poppins text-[18px] md:text-[22px] text-center;
+}
+
+.values {
+    @apply grid grid-cols-1 md:grid-cols-2 md:gap-x-[8rem] md:gap-y-[2rem] w-auto sm:w-[80%] md:w-[40rem] mx-auto pt-5;
+}
+
+.valueCard {
+    @apply flex flex-col gap-y-2 font-poppins text-lg items-center py-5 text-center;
+}
+
+.valueCard img {
+    @apply w-[50px] h-auto;
+}
+
+.valueCard h3 {
+    @apply font-bold text-[22px];
+}

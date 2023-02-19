@@ -4,11 +4,11 @@ import { StartarchLogo } from '../../assets/images';
 
 function Footer() {
     return (
-        <div className={styles.footer}>
+        <section className={styles.footer}>
             <div className={styles.columnOganize}>
                 <img className="h-[100px] w-auto"
                     src={StartarchLogo.asset} alt={StartarchLogo.description} />
-                <h2 className={styles.titulo}>StartArch</h2>
+                <h2 className={styles.title}>StartArch</h2>
                 <h4 className={styles.slogan}>
                     We help brands turn their products into reality.
                 </h4>
@@ -16,36 +16,37 @@ function Footer() {
                     hello@startarch.com
                 </h2>
 
+                {/* TODO: transform tags into links */}
                 <div className={styles.tags}>
 
                     <div className={styles.columnTags}>
-                        <div className={styles.firstLabel}>Company</div>
-                        <div className={styles.otherLabel}>Projects</div>
-                        <div className={styles.otherLabel}>Services</div>
-                        <div className={styles.otherLabel}>Prices</div>
-                        <div className={styles.otherLabel}>Contact</div>
-
+                        <h3 className={styles.tagTitle}>Company</h3>
+                        <a href="" className={styles.tag}>Projects</a>
+                        <a href="" className={styles.tag}>Services</a>
+                        <a href="" className={styles.tag}>Process</a>
+                        <a href="" className={styles.tag}>Contact</a>
                     </div>
 
                     <div className={styles.columnTags}>
-                        <div className={styles.firstLabel}>Support</div>
-                        <div className={styles.otherLabel}>Login</div>
-                        <div className={styles.otherLabel}>Create an account</div>
-                        <div className={styles.otherLabel}>Privacy policy</div>
-                        <div className={styles.otherLabel}>Terms and conditions</div>
+                        <h3 className={styles.tagTitle}>Support</h3>
+                        <a href="" className={styles.tag}>Login</a>
+                        <a href="" className={styles.tag}>Create an account</a>
+                        <a href="" className={styles.tag}>Privacy policy</a>
+                        <a href="" className={styles.tag}>Terms and conditions</a>
                     </div>
 
+                    {/* TODO: Create and add links to social medias */}
                     <div className={styles.columnTags}>
-                    <div className={styles.firstLabel}>social medias</div>
-                        <div className={styles.otherLabel}>Linkedin</div>
-                        <div className={styles.otherLabel}>Instagram</div>
-                        <div className={styles.otherLabel}>Twitter</div>
-                        <div className={styles.otherLabel}>GitHub</div>
+                        <h3 className={styles.tagTitle}>Socials</h3>
+                        <a href="" className={styles.tag}>Linkedin</a>
+                        <a href="https://www.instagram.com/startarch_dev/" className={styles.tag}>Instagram</a>
+                        <a href="" className={styles.tag}>Twitter</a>
+                        <a href="" className={styles.tag}>GitHub</a>
                     </div>
                 </div>
             </div>
 
-        </div>
+        </section>
     );
 }
 

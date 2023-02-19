@@ -3,7 +3,7 @@ import yellowRocket from './yellow-rocket.webp';
 
 export const StartarchLogo: ImportedStaticAsset = {
     asset: startarchLogo,
-    description: "Startarch logo"
+    description: "StartArch logo"
 }
 
 export const YellowRocket: ImportedStaticAsset = {

@@ -1,9 +1,10 @@
 .footer {
     background-color: #333333;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 3%;
+    padding-bottom: 5%;
     display: flex;
     justify-content: center;
+    @apply font-poppins;
 }
 
 .columnOganize{
@@ -12,20 +13,21 @@
     width: 70em;
 }
 
-.titulo {
+.title {
+    @apply font-spaceGrotesk font-bold text-[48px] text-nearWhite;
     align-self: center;
     margin-top: .7em;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 2em;
     line-height: 48px;
 }
 
 .slogan {
+    font-family: 'Poppins';
+    font-style: normal;
     margin-top: .7em;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 1em;
+    line-height: 27px;
     align-self: center;
 }
 
@@ -34,35 +36,43 @@
     margin-top: .7em;
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 43px;
     line-height: 63px;
 }
 
 .tags {
-    margin-top: 3em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    @apply gap-x-[3rem] sm:gap-x-[6rem] lg:gap-x-[8rem] mx-auto;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 620px) {
+    .tags {
+        grid-template-columns: auto;
+        row-gap: 2rem;
+    }
 }
 
 .columnTags {
     display: flex;
     flex-direction: column;
-    margin-right: 8%;
-    margin-left: 8%;
-    margin-bottom: 3em;
-    /* align-items: center; */
 }
 
-.firstLabel{
-    color: #FFFFFF;
+.tagTitle {
+    @apply text-nearWhite;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 20px;
+    line-height: 30px;
 }
 
-.otherLabel{
-    color: #FFFFFF;
-    font-size: 0.8888888888888888em;
+.tag {
+    @apply text-nearWhite;
+    font-size: 18px;
     font-weight: 600;
     margin-top: .45em;
+}
+
+.tag:hover {
+    @apply text-white;
 }

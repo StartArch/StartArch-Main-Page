@@ -1,0 +1,20 @@
+.servicesSection {
+    @apply content py-10;
+}
+
+.title {
+    @apply font-poppins text-[32px] font-bold text-center;
+}
+
+.servicesList {
+    @apply grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-y-12 justify-between py-8 mx-auto;
+}
+
+.service {
+    @apply flex flex-col font-bold text-[20px] text-center content-center;
+}
+
+.service img {
+    @apply w-[80px] h-auto mx-auto;
+}
+

@@ -1,50 +1,27 @@
 .footer {
-    background-color: #333333;
-    padding-top: 3%;
-    padding-bottom: 5%;
-    display: flex;
-    justify-content: center;
-    @apply font-poppins;
+    @apply content bg-nearBlack pt-12 pb-16 flex flex-col font-poppins items-center;
 }
 
-.columnOganize{
-    display: flex;
-    flex-direction: column;
-    width: 70em;
+.logo {
+    @apply h-[100px] w-auto;
 }
 
-.title {
-    @apply font-spaceGrotesk font-bold text-[48px] text-nearWhite;
-    align-self: center;
-    margin-top: .7em;
-    line-height: 48px;
+.companyName {
+    @apply font-spaceGrotesk font-bold text-[2.5rem] md:text-[2.7rem] text-nearWhite leading-none mt-[0.7rem];
 }
 
 .slogan {
-    font-family: 'Poppins';
-    font-style: normal;
-    margin-top: .7em;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 27px;
-    align-self: center;
+    @apply font-poppins text-nearWhite font-semibold mt-3 text-center;
 }
 
 .email {
-    align-self: center;
-    margin-top: .7em;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 43px;
-    line-height: 63px;
+    @apply mt-3 text-nearWhite font-bold text-[1.9rem] xs:text-[2.5rem] md:text-[2.7rem];
 }
 
 .tags {
     display: grid;
     grid-template-columns: auto auto auto;
-    @apply gap-x-[3rem] sm:gap-x-[6rem] lg:gap-x-[8rem] mx-auto;
-    margin-top: 5rem;
+    @apply gap-x-[3rem] sm:gap-x-[6rem] lg:gap-x-[8rem] mx-auto mt-10 xs:mt-14;
 }
 
 @media screen and (max-width: 620px) {
@@ -57,20 +34,15 @@
 .columnTags {
     display: flex;
     flex-direction: column;
+    row-gap: 0.45rem;
 }
 
 .tagTitle {
-    @apply text-nearWhite;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
+    @apply text-nearWhite text-[1.1rem] sm:text-[1.3rem] font-bold;
 }
 
 .tag {
-    @apply text-nearWhite;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: .45em;
+    @apply text-nearWhite font-semibold text-[1rem] sm:text-[1.1rem];
 }
 
 .tag:hover {

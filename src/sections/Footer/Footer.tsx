@@ -3,49 +3,51 @@ import { StartarchLogo } from '../../assets/images';
 
 
 function Footer() {
+
+    const instagramLink = "https://www.instagram.com/startarch_dev/"
+
     return (
         <section className={styles.footer}>
-            <div className={styles.columnOganize}>
-                <img className="h-[100px] w-auto"
-                    src={StartarchLogo.asset} alt={StartarchLogo.description} />
-                <h2 className={styles.title}>StartArch</h2>
-                <h4 className={styles.slogan}>
-                    We help brands turn their products into reality.
-                </h4>
-                <h2 className={styles.email}>
-                    hello@startarch.com
-                </h2>
+            <img
+                className={styles.logo}
+                src={StartarchLogo.asset}
+                alt={StartarchLogo.description} />
 
-                {/* TODO: transform tags into links */}
-                <div className={styles.tags}>
+            <h2 className={styles.companyName}>StartArch</h2>
+            <h4 className={styles.slogan}>
+                We help brands turn their products into reality.
+            </h4>
+            <h2 className={styles.email}>
+                hello@startarch.com
+            </h2>
 
-                    <div className={styles.columnTags}>
-                        <h3 className={styles.tagTitle}>Company</h3>
-                        <a href="" className={styles.tag}>Projects</a>
-                        <a href="" className={styles.tag}>Services</a>
-                        <a href="" className={styles.tag}>Process</a>
-                        <a href="" className={styles.tag}>Contact</a>
-                    </div>
+            {/* TODO: transform tags into links */}
+            <div className={styles.tags}>
+                <div className={styles.columnTags}>
+                    <h3 className={styles.tagTitle}>Company</h3>
+                    <a href="" className={styles.tag}>Projects</a>
+                    <a href="" className={styles.tag}>Services</a>
+                    <a href="" className={styles.tag}>Process</a>
+                    <a href="" className={styles.tag}>Contact</a>
+                </div>
 
-                    <div className={styles.columnTags}>
-                        <h3 className={styles.tagTitle}>Support</h3>
-                        <a href="" className={styles.tag}>Login</a>
-                        <a href="" className={styles.tag}>Create an account</a>
-                        <a href="" className={styles.tag}>Privacy policy</a>
-                        <a href="" className={styles.tag}>Terms and conditions</a>
-                    </div>
+                <div className={styles.columnTags}>
+                    <h3 className={styles.tagTitle}>Support</h3>
+                    <a href="" className={styles.tag}>Login</a>
+                    <a href="" className={styles.tag}>Create an account</a>
+                    <a href="" className={styles.tag}>Privacy policy</a>
+                    <a href="" className={styles.tag}>Terms and conditions</a>
+                </div>
 
-                    {/* TODO: Create and add links to social medias */}
-                    <div className={styles.columnTags}>
-                        <h3 className={styles.tagTitle}>Socials</h3>
-                        <a href="" className={styles.tag}>Linkedin</a>
-                        <a href="https://www.instagram.com/startarch_dev/" className={styles.tag}>Instagram</a>
-                        <a href="" className={styles.tag}>Twitter</a>
-                        <a href="" className={styles.tag}>GitHub</a>
-                    </div>
+                {/* TODO: Create and add links to social medias */}
+                <div className={styles.columnTags}>
+                    <h3 className={styles.tagTitle}>Socials</h3>
+                    <a href="" className={styles.tag}>Linkedin</a>
+                    <a href={instagramLink} className={styles.tag}>Instagram</a>
+                    <a href="" className={styles.tag}>Twitter</a>
+                    <a href="" className={styles.tag}>GitHub</a>
                 </div>
             </div>
-
         </section>
     );
 }

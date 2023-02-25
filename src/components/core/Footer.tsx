@@ -1,4 +1,5 @@
-import styles from './Footer.module.css';
+import Image from 'next/image';
+import styles from '../../styles/Footer.module.css';
 import { StartarchLogo } from '../../assets/images';
 
 
@@ -8,7 +9,7 @@ function Footer() {
 
     return (
         <section className={styles.footer}>
-            <img
+            <Image
                 className={styles.logo}
                 src={StartarchLogo.asset}
                 alt={StartarchLogo.description} />

@@ -1,6 +1,7 @@
 import { StartarchLogo } from '../../assets/images';
 import { Disclosure, Transition } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 // import styles from './navbar.module.css';
 
 function Navbar() {
@@ -31,7 +32,7 @@ function Navbar() {
                                 </Disclosure.Button>
                             </div>
                             <div className="flex flex-row items-center gap-4">
-                                <img
+                                <Image
                                     className="h-[40px] w-auto"
                                     src={StartarchLogo.asset} alt={StartarchLogo.description}/>
 

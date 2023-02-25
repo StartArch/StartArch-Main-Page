@@ -1,6 +1,7 @@
+import Image from 'next/image';
 import { YellowRocket } from '../../assets/images';
-import { Navbar } from '../../core';
-import styles from './Hero.module.css';
+import { Navbar } from '../core';
+import styles from '../../styles/Hero.module.css';
 
 function Hero() {
 
@@ -16,7 +17,7 @@ function Hero() {
             </div>
 
             <span className={styles.moon}>
-                <img className={styles.rocket} src={YellowRocket.asset} alt=''/>
+                <Image className={styles.rocket} src={YellowRocket.asset} alt=''/>
             </span>
         </section>
     );

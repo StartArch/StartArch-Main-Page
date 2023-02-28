@@ -1,13 +1,11 @@
 import Image from 'next/image';
 import { YellowRocket } from '../../assets/images';
-import { Navbar } from '../core';
 import styles from '../../styles/Hero.module.css';
 
 function Hero() {
 
     return (
         <section className={styles.heroSection}>
-            <Navbar/>
             <div className={styles.textBox}>
                 <h1>Propel your business <br/>to a new height <br/>with a modern website</h1>
 

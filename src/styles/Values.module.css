@@ -1,5 +1,5 @@
 .valuesSection {
-    @apply py-10 content;
+    @apply py-10;
 }
 
 .title {

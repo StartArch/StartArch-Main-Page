@@ -13,10 +13,6 @@ function Hero() {
                     We are a team of enthusiastic engineers, designers and developers <br className='hidden md:inline'/>with the experience and know-how to bring your projects into reality
                 </h2>
             </div>
-
-            <span className={styles.moon}>
-                <Image className={styles.rocket} src={YellowRocket.asset} alt=''/>
-            </span>
         </section>
     );
 }

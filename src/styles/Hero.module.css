@@ -26,13 +26,3 @@
         sm:text-[1.4rem];
 }
 
-/* TODO: make moon responsive */
-.moon {
-    @apply landscape:h-[105vh] landscape:w-[105vh] rounded-full bg-lightPurple absolute right-[-8%] bottom-[-17%];
-}
-
-/* TODO: make rocket responsive */
-.rocket {
-    @apply h-[70%] rotate-[10.85deg] z-10 absolute right-[52%] bottom-[18%];
-}
-

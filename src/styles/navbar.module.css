@@ -3,15 +3,27 @@
 }
 
 .companyName {
-    @apply font-spaceGrotesk text-[22px] font-bold;
+    @apply font-spaceGrotesk text-[1.4rem] font-bold;
 }
 
 .options {
-    @apply hidden ss:flex flex-row gap-8 hover:children:underline ;
+    @apply hidden ss:flex flex-row gap-8;
+}
+
+.option {
+    @apply hover:underline;
+}
+
+.signInBtn {
+    @apply border-nearBlack border-2 hover:text-black hover:border-black rounded-full px-3;
 }
 
 .menuButton {
-    @apply ss:hidden h-[30px] w-[30px];
+    @apply ss:hidden h-[1.9rem] w-[1.9rem];
+}
+
+.mobileOptionMenu {
+    @apply flex flex-col gap-3;
 }
 
 .mobileOpenMenu {

@@ -12,8 +12,7 @@ function Navbar() {
     const navigation = [
         { name: 'Portfolio', href: '#' },
         { name: 'Blog', href: '#' },
-        { name: 'Contact Us', href: '#' },
-        { name: 'Sign in', href: '#' },
+        { name: 'Contact Us', href: '#' }
     ]
 
     const toggleMenu = () => {
@@ -35,10 +34,12 @@ function Navbar() {
                 <div className={styles.optionMenu}>
                     <ul className={styles.options}>
                         {navigation.map(item => (
-                            <li key={item.name}>
-                                <a href={item.href}>{item.name}</a>
+                            <li key={item.name} className={styles.option}>
+                                <Link href={item.href}>{item.name}</Link>
                             </li>
                         ))}
+
+                        <li className={styles.signInBtn}><Link href="">Sign in</Link></li>
                     </ul>
 
                     <Image
@@ -54,12 +55,13 @@ function Navbar() {
             {
                 isMenuOpen &&
                 <div className={styles.mobileOpenMenu}>
-                    <ul>
+                    <ul className={styles.mobileOptionMenu}>
                         {navigation.map(item => (
-                            <li key={item.name}>
+                            <li key={item.name} className={styles.option}>
                                 <Link href={item.href}>{item.name}</Link>
                             </li>
                         ))}
+                        <li className={styles.option}><Link href="">Sign in</Link></li>
                     </ul>
                 </div>
             }

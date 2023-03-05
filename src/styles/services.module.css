@@ -1,5 +1,5 @@
 .servicesSection {
-    @apply py-10;
+    @apply content py-10;
 }
 
 .title {

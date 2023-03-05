@@ -1,0 +1,19 @@
+.topBar {
+    @apply content flex flex-row justify-between items-center py-4;
+}
+
+.companyName {
+    @apply font-spaceGrotesk text-[22px] font-bold;
+}
+
+.options {
+    @apply hidden ss:flex flex-row gap-8 hover:children:underline ;
+}
+
+.menuButton {
+    @apply ss:hidden h-[30px] w-[30px];
+}
+
+.mobileOpenMenu {
+    @apply content ss:hidden;
+}

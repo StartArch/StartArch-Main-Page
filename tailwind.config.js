@@ -30,8 +30,13 @@ module.exports = {
         }
     },
 	plugins: [
-        plugin(function({addVariant}){
-            addVariant('children', '&>*')
+        plugin(function({addVariant, addComponents }){
+            addVariant('children', '&>*'),
+            addComponents({
+                '.content': {
+                    padding: '0 10%',
+                }
+            })
         })
 	],
 }

@@ -1,22 +1,20 @@
 .heroSection {
-    background: linear-gradient(100.44deg, #B397EE -7.72%, #5133A7 64.9%);
-
-    @apply h-[100vh] px-[10%] overflow-hidden relative;
+    @apply content h-[100vh] overflow-hidden relative;
 }
 
 .textBox {
-    @apply children:text-nearWhite relative z-50 mt-[8rem];
+    @apply children:text-nearBlack relative z-50 mt-[8rem];
 }
 
 .textBox h1 {
-    @apply font-poppins font-bold
-        text-[1.4rem] leading-[1.6em]
-        xs:text-[1.6rem] xs:leading-[1.6em]
-        ss:text-[1.9rem] ss:leading-[1.7em]
-        sm:text-[2.5rem] sm:leading-[1.7em]
-        md:text-[3.2rem] md:leading-[1.7em]
-        lg:text-[3.8rem] lg:leading-[1.7em]
-        xl:text-[4.5rem] xl:leading-[1.7em] ;
+    @apply font-spaceGrotesk font-bold uppercase
+        text-[1.4rem] leading-tight
+        xs:text-[1.6rem]
+        ss:text-[1.9rem]
+        sm:text-[2.5rem]
+        md:text-[3.2rem]
+        lg:text-[3.8rem]
+        xl:text-[4.5rem];
 }
 
 .textBox h2 {

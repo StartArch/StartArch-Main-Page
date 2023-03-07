@@ -1,5 +1,5 @@
 .topBar {
-    @apply content flex flex-row justify-between items-center py-4;
+    @apply content flex flex-row justify-between items-center py-4 absolute w-full z-10 bg-white;
 }
 
 .companyName {
@@ -22,10 +22,12 @@
     @apply ss:hidden h-[1.9rem] w-[1.9rem];
 }
 
-.mobileOptionMenu {
-    @apply flex flex-col gap-3;
+.mobileOpenMenu {
+    @apply content ss:hidden absolute right-0 left-0 top-0 bottom-0 z-[5] bg-white;
 }
 
-.mobileOpenMenu {
-    @apply content ss:hidden;
+.mobileOptionMenu {
+    @apply flex flex-col gap-6 h-full justify-center;
 }
+
+

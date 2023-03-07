@@ -7,7 +7,6 @@ import Link from 'next/link';
 function Navbar() {
 
     const [ isMenuOpen, setIsMenuOpen ] = useState(false);
-    const [ menuIcon, setMenuIcon ] = useState(HamburguerMenu);
 
     const navigation = [
         { name: 'Portfolio', href: '#' },
@@ -15,15 +14,14 @@ function Navbar() {
         { name: 'Contact Us', href: '#' }
     ]
 
-    const toggleMenu = () => {
-        setIsMenuOpen(prevState => !prevState);
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+        document.body.style.overflow = ''
+    }
 
-        setMenuIcon(prevState => {
-            if (prevState == HamburguerMenu)
-                return CloseMenu;
-
-            return HamburguerMenu;
-        })
+    const openMenu = () => {
+        setIsMenuOpen(true);
+        document.body.style.overflow = 'hidden'
     }
 
     return (
@@ -42,14 +40,24 @@ function Navbar() {
                         <li className={styles.signInBtn}><Link href="">Sign in</Link></li>
                     </ul>
 
-                    <Image
-                        className={styles.menuButton}
-                        src={menuIcon.asset}
-                        alt={menuIcon.description}
-                        onClick={toggleMenu}/>
+                    {
+                        isMenuOpen &&
+                        <Image
+                            className={styles.menuButton}
+                            src={CloseMenu.asset}
+                            alt={CloseMenu.description}
+                            onClick={closeMenu}/>
+                    }
+                    {
+                        !isMenuOpen &&
+                        <Image
+                            className={styles.menuButton}
+                            src={HamburguerMenu.asset}
+                            alt={HamburguerMenu.description}
+                            onClick={openMenu}/>
+                    }
+
                 </div>
-
-
             </nav>
 
             {
@@ -65,9 +73,7 @@ function Navbar() {
                     </ul>
                 </div>
             }
-
         </>
-
     );
 }
 

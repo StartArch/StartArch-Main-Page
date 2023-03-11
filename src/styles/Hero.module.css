@@ -1,26 +1,25 @@
 .heroSection {
-    @apply content h-[100vh] overflow-hidden relative;
+    @apply content h-[100vh] overflow-hidden;
 }
 
 .textBox {
-    @apply children:text-nearBlack relative z-50 mt-[8rem];
+    @apply children:text-nearBlack;
+    margin-top: 20vh;
 }
 
 .textBox h1 {
-    @apply font-spaceGrotesk font-bold uppercase
-        text-[1.4rem] leading-tight
-        xs:text-[1.6rem]
-        ss:text-[1.9rem]
-        sm:text-[2.5rem]
-        md:text-[3.2rem]
-        lg:text-[3.8rem]
-        xl:text-[4.5rem];
+    @apply font-spaceGrotesk font-bold uppercase leading-[1.2em];
+
+    font-size: clamp(2.7rem, 7vw, 6rem);
 }
 
 .textBox h2 {
-    @apply font-dmSans leading-[1.87rem]
-        text-[1.1rem]
-        ss:text-[1.2rem]
-        sm:text-[1.4rem];
+    @apply leading-[1.87rem] w-[100%] xs:w-[80%] ss:w-[60%] sm:w-[55%];
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
 }
 
+.companyLogo {
+    @apply h-auto relative opacity-[20%] hidden ss:block float-right;
+    width: clamp(600px, 80%, 80%);
+    transform: translate(40%,-40%);
+}

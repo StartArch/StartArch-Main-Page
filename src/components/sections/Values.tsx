@@ -1,5 +1,6 @@
-import { MoneyIcon, ChatIcon, FlexibilityIcon, DevIcon} from '../../assets/icons';
-import styles from './Values.module.css';
+import Image from 'next/image';
+import { MoneyIcon, ChatIcon, FlexibilityIcon, DevIcon} from '../../assets/images';
+import styles from '../../styles/Values.module.css';
 
 function Values() {
 
@@ -10,25 +11,25 @@ function Values() {
 
             <div className={styles.values}>
                 <div className={styles.valueCard}>
-                    <img src={MoneyIcon.asset} alt=""/>
+                    <Image src={MoneyIcon.asset} alt=""/>
                     <h3>Upfront prices</h3>
                     <p>We carefully plan and map all our projects in advance so there will be no surprises</p>
                 </div>
 
                 <div className={styles.valueCard}>
-                    <img src={ChatIcon.asset} alt=""/>
+                    <Image src={ChatIcon.asset} alt=""/>
                     <h3>Fast Communication</h3>
                     <p>We readily reply to all communications to keep you inside the loop</p>
                 </div>
 
                 <div className={styles.valueCard}>
-                    <img src={FlexibilityIcon.asset} alt=""/>
+                    <Image src={FlexibilityIcon.asset} alt=""/>
                     <h3>High Flexibility</h3>
                     <p>We understand that your project's needs might change. We keep a flexible model to account for that</p>
                 </div>
 
                 <div className={styles.valueCard}>
-                    <img src={DevIcon.asset} alt=""/>
+                    <Image src={DevIcon.asset} alt=""/>
                     <h3>Dedicated Developers</h3>
                     <p>We make sure every project has a dedicated team to supervise</p>
                 </div>

@@ -1,5 +1,5 @@
 .footer {
-    @apply content bg-nearBlack pt-12 pb-16 flex flex-col font-poppins items-center;
+    @apply bg-nearBlack pt-12 pb-16 flex flex-col font-poppins items-center;
 }
 
 .logo {

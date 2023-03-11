@@ -1,0 +1,33 @@
+.topBar {
+    @apply content flex flex-row justify-between items-center py-4 absolute w-full z-10 bg-white;
+}
+
+.companyName {
+    @apply font-spaceGrotesk text-[1.4rem] font-bold;
+}
+
+.options {
+    @apply hidden ss:flex flex-row gap-8;
+}
+
+.option {
+    @apply hover:underline;
+}
+
+.signInBtn {
+    @apply border-nearBlack border-2 hover:text-black hover:border-black rounded-full px-3;
+}
+
+.menuButton {
+    @apply ss:hidden h-[1.9rem] w-[1.9rem];
+}
+
+.mobileOpenMenu {
+    @apply content ss:hidden absolute right-0 left-0 top-0 bottom-0 z-[5] bg-white;
+}
+
+.mobileOptionMenu {
+    @apply flex flex-col gap-6 h-full justify-center;
+}
+
+

@@ -4,8 +4,7 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = {
 	content: [
-		"./index.html",
-		"./src/**/*.{js,ts,jsx,tsx}",
+        "./src/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
         extend: {
@@ -31,8 +30,13 @@ module.exports = {
         }
     },
 	plugins: [
-        plugin(function({addVariant}){
-            addVariant('children', '&>*')
+        plugin(function({addVariant, addComponents }){
+            addVariant('children', '&>*'),
+            addComponents({
+                '.content': {
+                    padding: '0 10%',
+                }
+            })
         })
 	],
 }

@@ -41,18 +41,19 @@
 
 ## About us
 
-We are a digital agency focused on making modern, beatiful, and efficient products to our clients.
+We are a team of enthusiastic engineers, designers and developers with the experience and know-how to bring your projects into reality.
 
 
 ## About this project
 
-This is the front end application for StartArch's company. You can find more information about the project's on going tasks, tools, and methodologies on the company's Notion page.
+This is the web application for StartArch's company. You can find more information about the project's on going tasks, tools, and methodologies on the company's Notion page.
 
 ### Built with
 
 * [React.js](https://reactjs.org/)
-* [Vite](https://vitejs.dev/)
+* [Next.js](https://nextjs.org/)
 * [TypeScript](https://www.typescriptlang.org/)
+* [Tailwindcss](https://tailwindcss.com/)
 * [NPM](https://www.npmjs.com/)
 
 
@@ -80,5 +81,5 @@ npm --version
 The project is set with three scripts:
 
 * Development - Run `npm run dev` to run this project on your local browser in development mode.
-* Build - Run `npm run build` to build this project to the dist folder. This folder is not supposed to be pushed to git.
-* Preview - Run `npm run preview` to preview the built project currently on the dist folder. This is meant for debugging and is not supposed to be used to serve the project on a production server.
+* Build - Run `npm run build` to build this project to the .next folder. This folder is not supposed to be pushed to git.
+* Preview - Run `npm run start` to preview the built project currently on the .next folder. This is meant for debugging and is not supposed to be used to serve the project on a production server.

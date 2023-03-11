@@ -1,0 +1,26 @@
+.heroSection {
+    @apply content h-[100vh] overflow-hidden relative;
+}
+
+.textBox {
+    @apply children:text-nearBlack relative z-50 mt-[8rem];
+}
+
+.textBox h1 {
+    @apply font-spaceGrotesk font-bold uppercase
+        text-[1.4rem] leading-tight
+        xs:text-[1.6rem]
+        ss:text-[1.9rem]
+        sm:text-[2.5rem]
+        md:text-[3.2rem]
+        lg:text-[3.8rem]
+        xl:text-[4.5rem];
+}
+
+.textBox h2 {
+    @apply font-dmSans leading-[1.87rem]
+        text-[1.1rem]
+        ss:text-[1.2rem]
+        sm:text-[1.4rem];
+}
+

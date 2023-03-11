@@ -46,7 +46,7 @@ function Footer() {
                     <a href="" className={styles.tag}>Linkedin</a>
                     <a href={instagramLink} className={styles.tag}>Instagram</a>
                     <a href="" className={styles.tag}>Twitter</a>
-                    <a href="" className={styles.tag}>GitHub</a>
+                    <a href="" className={styles.tag}>Dribbble</a>
                 </div>
             </div>
         </section>

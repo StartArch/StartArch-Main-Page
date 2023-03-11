@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { StartarchLogo } from '../../assets/images';
-import styles from '../../styles/Hero.module.css';
+import styles from '../../styles/hero.module.css';
 
 function Hero() {
 

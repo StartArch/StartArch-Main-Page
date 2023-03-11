@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { MoneyIcon, ChatIcon, FlexibilityIcon, DevIcon} from '../../assets/images';
-import styles from '../../styles/Values.module.css';
+import styles from '../../styles/values.module.css';
 
 function Values() {
 

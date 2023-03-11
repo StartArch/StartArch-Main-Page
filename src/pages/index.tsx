@@ -1,4 +1,4 @@
-import { Hero, Values, Services } from '@/components/sections';
+import { Hero, Values, Services } from '../components/sections';
 
 export default function index() {
     return (

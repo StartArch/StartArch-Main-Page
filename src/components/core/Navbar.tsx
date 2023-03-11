@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import styles from '@/styles/Navbar.module.css';
+import styles from '../../styles/Navbar.module.css';
 import { useState } from 'react';
-import { HamburguerMenu, CloseMenu} from '@/assets/images';
+import { HamburguerMenu, CloseMenu} from '../../assets/images';
 import Link from 'next/link';
 
 function Navbar() {

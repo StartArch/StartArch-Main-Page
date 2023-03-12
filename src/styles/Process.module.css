@@ -1,0 +1,7 @@
+.processSection {
+    @apply content py-10;
+}
+
+.title {
+    @apply font-poppins text-[32px] font-bold text-center;
+}

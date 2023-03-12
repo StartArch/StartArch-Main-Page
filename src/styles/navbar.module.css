@@ -27,7 +27,7 @@
 }
 
 .mobileOptionMenu {
-    @apply flex flex-col gap-6 h-full justify-center;
+    @apply flex flex-col gap-6 h-full mt-25;
 }
 
 

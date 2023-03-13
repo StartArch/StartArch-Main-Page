@@ -7,9 +7,10 @@
 @tailwind utilities;
 
 body {
+    /* isso não é necessario cara */
     max-width: 100vw;
     max-height: 100vh;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     position: relative;
 }
 

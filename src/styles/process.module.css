@@ -1,0 +1,88 @@
+.processSection {
+    @apply content py-10;
+}
+
+.title {
+    @apply font-poppins text-[32px] font-bold text-center mb-[2em];
+}
+
+.lineArea {
+    /* @apply grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-y-12 justify-between py-8 mx-auto; */
+    display: flex;
+    flex-direction: column;
+}
+
+.step {
+    align-self: center;
+    display: flex;
+}
+
+.purpleCircle {
+    @apply h-[1.35em] w-[1.35em];
+    border-radius: 50%;
+    background: #583AAB;
+    margin: auto;
+    margin-top: .6em;
+    z-index: 10;
+}
+
+.circleWithPurleBorder {
+    @apply h-[2.7em] w-[2.7em];
+    border-radius: 50%;
+    background: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #583AAB;
+    align-self: center;
+    margin-bottom: 4em;
+    margin-top: -0.6em;
+    margin-left: 3.2em;
+    z-index: 10;
+}
+
+.circleWithNone {
+    @apply h-[2.7em] w-[2.7em];
+    border-radius: 50%;
+    background: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid transparent;
+    align-self: center;
+    margin-bottom: 3.8em;
+    z-index: 10;
+}
+
+.blackCircle {
+    @apply h-[1.35em] w-[1.35em];
+    border-radius: 50%;
+    background: #000000;
+    align-self: center;
+    margin-left: 2.2em;
+}
+
+.lineBetween {
+    align-self: center;
+    position: absolute;
+    width: 0px;
+    height: 5.2em;
+    border: 2px solid #000000;
+    margin-bottom: 5em;
+    margin-right: 10.6em;
+}
+
+.stepLine {
+    align-self: center;
+    display: flex;
+    margin-right: 10.8em;
+}
+
+
+.h3Purple {
+    @apply text-[20px] mt-[-0.2em] ml-[1em] font-bold;
+    width: 10em;
+}
+
+.h3 {
+    @apply text-[20px] mt-[-0.2em] ml-[1em];
+    width: 16em;
+    padding-left: 1.4em;
+    margin-right: -6em;
+}

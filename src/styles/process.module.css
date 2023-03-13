@@ -35,7 +35,7 @@
     align-self: center;
     margin-bottom: 4em;
     margin-top: -0.6em;
-    margin-left: 3.2em;
+    /* margin-left: 3.2em; */
     z-index: 10;
 }
 
@@ -55,7 +55,8 @@
     border-radius: 50%;
     background: #000000;
     align-self: center;
-    margin-left: 2.2em;
+    /* margin-left: 2.2em; */
+    margin-left: 0.6em;
 }
 
 .lineBetween {
@@ -71,7 +72,8 @@
 .stepLine {
     align-self: center;
     display: flex;
-    margin-right: 10.8em;
+    /* margin-right: 10.8em; */
+    margin-right: 13.9em;
 }
 
 
@@ -83,6 +85,6 @@
 .h3 {
     @apply text-[20px] mt-[-0.2em] ml-[1em];
     width: 16em;
-    padding-left: 1.4em;
+    /* padding-left: 1.4em; */
     margin-right: -6em;
 }

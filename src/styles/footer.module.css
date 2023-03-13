@@ -1,9 +1,11 @@
 .footer {
     @apply bg-nearBlack pt-12 pb-16 flex flex-col font-poppins items-center;
+    width: 100%;
 }
 
 .logo {
     @apply h-[100px] w-auto;
+    color: white;
 }
 
 .companyName {

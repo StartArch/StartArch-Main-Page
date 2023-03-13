@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import index from 'src/pages';
-import styles from '../../styles/Process.module.css';
+import styles from '../../styles/process.module.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';

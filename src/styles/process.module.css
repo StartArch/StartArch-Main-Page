@@ -23,7 +23,7 @@
     background: #583AAB;
     margin: auto;
     margin-top: .6em;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 .circleWithPurleBorder {
@@ -36,7 +36,7 @@
     margin-bottom: 4em;
     margin-top: -0.6em;
     /* margin-left: 3.2em; */
-    z-index: 10;
+    z-index: 4;
 }
 
 .circleWithNone {
@@ -47,7 +47,7 @@
     border: 1px solid transparent;
     align-self: center;
     margin-bottom: 3.8em;
-    z-index: 10;
+    z-index: 4;
 }
 
 .blackCircle {
